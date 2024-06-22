@@ -1,0 +1,5 @@
+venv
+models
+*.pyc
+app/local.py
+app/main_local.py
