@@ -17,10 +17,10 @@ COPY ./app /code/app
 # Set environment variables
 
 ENV WANDB_API_KEY="" 
-ENV WANDB_ORG="antonios-org"
-ENV WANDB_PROJECT="fruit-classifier"
-ENV WANDB_MODEL_NAME="resnet18"
-ENV WANDB_MODEL_VERSION="v2"
+ENV WANDB_ORG="lucamiras12"
+ENV WANDB_PROJECT="Fruit classifier"
+ENV WANDB_MODEL_NAME="fruit-classifier"
+ENV WANDB_MODEL_VERSION="v1"
 
 # Command to run the application
 CMD ["fastapi", "run", "app/main.py", "--port", "8080"]
